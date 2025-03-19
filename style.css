@@ -245,3 +245,15 @@ input, textarea {
     cursor: pointer;
     border-radius: 5px;
 }
+
+@media (max-width: 768px){
+
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive 3-4 per row */
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+    }
+    
+}
