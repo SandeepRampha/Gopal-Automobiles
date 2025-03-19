@@ -74,7 +74,7 @@ background-color: rgba(0,0,0,0.8);
 /* Caption text */
 .text {
 color: #ffffff;
-font-size: 30px;
+font-size: 18px;
 padding: 8px 12px;
 position: absolute;
 bottom: 8px;
@@ -131,7 +131,7 @@ display: none
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 40px 100px;
+    padding: 40px 39px;
     background: #e0eaf4;
     font-size: 1.2rem;
     line-height: 1.6;
@@ -255,5 +255,22 @@ input, textarea {
         padding: 20px;
         justify-content: center;
     }
+
+    #navBar {
     
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: black;
+        height: 12vh;
+    }
+    
+    #sidemenu a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        /* font-weight: bold; */
+        font-size: 9px;
+        transition: all 0.3s ease-in-out;
+    }
 }
